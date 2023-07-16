@@ -1,0 +1,64 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "C:/Users/LENOVO/Desktop/uas_webservice/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "C:/Users/LENOVO/Desktop/uas_webservice/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "C:/Users/LENOVO/Desktop/uas_webservice"
+      ],
+      "~/*": [
+        "C:/Users/LENOVO/Desktop/uas_webservice/*"
+      ],
+      "@": [
+        "C:/Users/LENOVO/Desktop/uas_webservice"
+      ],
+      "@/*": [
+        "C:/Users/LENOVO/Desktop/uas_webservice/*"
+      ],
+      "~~": [
+        "C:/Users/LENOVO/Desktop/uas_webservice"
+      ],
+      "~~/*": [
+        "C:/Users/LENOVO/Desktop/uas_webservice/*"
+      ],
+      "@@": [
+        "C:/Users/LENOVO/Desktop/uas_webservice"
+      ],
+      "@@/*": [
+        "C:/Users/LENOVO/Desktop/uas_webservice/*"
+      ],
+      "assets": [
+        "C:/Users/LENOVO/Desktop/uas_webservice/assets"
+      ],
+      "assets/*": [
+        "C:/Users/LENOVO/Desktop/uas_webservice/assets/*"
+      ],
+      "public": [
+        "C:/Users/LENOVO/Desktop/uas_webservice/public"
+      ],
+      "public/*": [
+        "C:/Users/LENOVO/Desktop/uas_webservice/public/*"
+      ]
+    }
+  },
+  "include": [
+    "C:/Users/LENOVO/Desktop/uas_webservice/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
